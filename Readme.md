@@ -1,7 +1,3 @@
-Here's a concise README for your Go-based Todo CLI app:
-
----
-
 # Todo CLI App
 
 A simple command-line tool written in Go to manage your to-do tasks efficiently.
