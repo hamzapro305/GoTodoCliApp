@@ -5,7 +5,7 @@ A simple command-line tool written in Go to manage your to-do tasks efficiently.
 ## Features
 
 - Add new tasks
-- Mark tasks as complete
+- Toggle Tasks
 - List all tasks
 - Edit tasks
 - Delete tasks
