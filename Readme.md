@@ -11,6 +11,7 @@ A simple command-line tool written in Go to manage your to-do tasks efficiently.
 - Add new tasks
 - Mark tasks as complete
 - List all tasks
+- Edit tasks
 - Delete tasks
 
 ## Installation
@@ -30,13 +31,13 @@ A simple command-line tool written in Go to manage your to-do tasks efficiently.
 3. Build the app:
 
    ```bash
-   go build
+   go build -o Todo.exe TodoCli
    ```
 
 4. Run the app:
 
    ```bash
-   ./todo-cli-app
+   ./Todo.exe --list
    ```
 
 ## Usage
@@ -44,25 +45,25 @@ A simple command-line tool written in Go to manage your to-do tasks efficiently.
 - **Add a task:**
 
    ```bash
-   ./todo-cli-app add "Task description"
+   ./Todo.exe --add "Task Title"
    ```
 
 - **List all tasks:**
 
    ```bash
-   ./todo-cli-app list
+   ./Todo.exe --list
    ```
 
-- **Mark a task as complete:**
+- **Toggle a task:**
 
    ```bash
-   ./todo-cli-app complete <task-id>
+   ./Todo.exe --toggle <task-id>
    ```
 
-- **Delete a task:**
+- **Edit a task:**
 
    ```bash
-   ./todo-cli-app delete <task-id>
+   ./Todo.exe --edit <task-id>:<title>
    ```
 
 ## License
